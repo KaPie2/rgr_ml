@@ -36,3 +36,22 @@ st.markdown("""
 2.  Реализовать страницу инференса для получения предсказаний от 6 обученных моделей ML.
 3.  Развернуть приложение и подготовить отчет о проделанной работе.
 """)
+
+st.markdown("---")
+
+st.subheader("Ссылки на проект")
+
+col_link1, col_link2 = st.columns(2)
+
+with col_link1:
+    st.markdown("""
+    ### GitHub репозиторий
+    [Перейти на GitHub](https://github.com/KaPie2/rgr_ml)
+    """)
+
+with col_link2:
+    st.markdown("""
+    ### ☁️ Streamlit Cloud
+    [Открыть веб-приложение]()  
+    *Деплой приложения в облаке*
+    """)
