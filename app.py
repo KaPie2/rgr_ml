@@ -51,7 +51,6 @@ with col_link1:
 
 with col_link2:
     st.markdown("""
-    ### ☁️ Streamlit Cloud
-    [Открыть веб-приложение]()  
-    *Деплой приложения в облаке*
+    ### Streamlit Cloud
+    [Открыть веб-приложение](https://khq63y967nhv6ww9qpwy7i.streamlit.app/)
     """)
